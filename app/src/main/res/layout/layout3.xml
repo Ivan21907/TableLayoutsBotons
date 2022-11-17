@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlue"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:text="no."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="4dp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:text="Product"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:text="Category"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:text="Price"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Apple"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Fruits"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="200"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Orange"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Fruits"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="100"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Tomato"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Vegetable"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="50"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Carrot"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Vegetable"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="80"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="3dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Banana"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="Fruits"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"
+            android:text="100"/>
+    </TableRow>
+
+</TableLayout>
